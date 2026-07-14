@@ -1,0 +1,25 @@
+{
+  "name": "shorttube",
+  "version": "1.0.0",
+  "private": true,
+  "description": "ShortTube — hybrid short/long-form video app (Appwrite backend, standalone Android WebView app via Capacitor)",
+  "scripts": {
+    "sync": "cap sync android",
+    "open:android": "cap open android",
+    "build:apk": "cd android && ./gradlew assembleDebug"
+  },
+  "dependencies": {
+    "@capacitor/android": "^6.1.2",
+    "@capacitor/app": "^6.0.1",
+    "@capacitor/core": "^6.1.2",
+    "@capacitor/splash-screen": "^6.0.2",
+    "@capacitor/status-bar": "^6.0.1",
+    "@openanime/capacitor-plugin-unityads": "latest"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^6.1.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
